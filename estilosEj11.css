@@ -4,5 +4,5 @@ table,td{
   border-collapse: collapse;
 }
 caption{
-  
+  caption-side: bottom;
 }

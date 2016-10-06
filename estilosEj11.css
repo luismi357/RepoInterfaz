@@ -5,4 +5,30 @@ table,td{
 }
 caption{
   caption-side: bottom;
+  font-style: italic;
+}
+.abajo{
+  vertical-align: bottom;
+}
+.center{
+  text-align: center;
+}
+
+img{
+  width: 50px;
+  heigth:50px;
+  align:left;
+  padding: 7px;
+}
+.imagenPeque{
+  width: 35px;
+  heigth:35px;
+  background-color: #FFFF66;
+  background-clip:content-box;
+}
+.fondoYell{
+  background-color: #FFFF66;
+}
+.captionPOS{
+  text-align: left;
 }

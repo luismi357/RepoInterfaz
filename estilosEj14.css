@@ -1,7 +1,23 @@
 input{
   border-radius: 5px;
 }
-autofocus{
-  border: 5px solid;
-  border-color: purple;
+input.checkbox{
+  margin-bottom: 10px;
+}
+input:focus{
+  border-color:#DA70D6;
+  background-color: grey;
+}
+.motInsc{
+  height: 40px;
+}
+.nota{
+  border:0.5px solid;
+  border-style: dashed;
+  font-size:12px;
+  font-style: italic;
+}
+div label{
+  width:15%;
+  float: left;
 }

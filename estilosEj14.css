@@ -1,4 +1,4 @@
-input{
+input,textarea{
   border-radius: 5px;
 }
 input.checkbox{
@@ -17,7 +17,7 @@ input:focus{
   font-size:12px;
   font-style: italic;
 }
-div label{
+div label:nth-child(1){
   width:15%;
   float: left;
 }

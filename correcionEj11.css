@@ -1,0 +1,38 @@
+td.html{
+
+}
+caption{
+  caption-side: bottom;
+  font-style: italic;
+  text-align: left;
+  font-size: 0.8em;
+}
+th,td{
+padding-left:5px;
+text-align:center;
+vertical-align:bottom;
+font-weight:normal;
+}
+tr:nth-child(even){
+background-color:#eee;
+}
+table,th,td{
+border: 2px solid black;
+border-collapse:collapse;
+}
+td.css:active{
+background:#FFFF66 url('logo css.png') no-repeat
+background-size:50px;
+}
+td.html:active{
+background:#FFFF66 url('logo css.png') no-repeat
+background-size:50px;
+}
+td.css{
+background-image:url('css.png');
+background-size:50px 50px;
+background-repeat:no-repeat;
+background-position:left center;
+padding: 0 .5em 0 1.2em;
+text-align:right;
+}

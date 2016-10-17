@@ -1,11 +1,28 @@
-li{
+ul.menu {
+  border: 1px solid #7C7C7C;
+  border-bottom: none;
   list-style: none;
-  padding: 6px;
-  border:1px solid;
-  border-color: black;
+  margin: 0;
+  padding: 0;
   width: 180px;
+}
+ul.menu li{
+   background: #F4F4F4;
+  border-bottom: 1px solid #7C7C7C;
+  border-top: 1px solid #FFF;
 }
 li:hover{
   background-color: grey;
   color:green;
+}
+ul.menu li a{
+  padding: .2em 0 .2em 1.5em;
+  display: block;
+  color: #333;
+  text-decoration: none;
+  background: #F4F4F4;
+}
+ul.menu li a:hover, ul.menu li a:active{
+  background: #E4E4E4;
+  color: green;
 }

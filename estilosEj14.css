@@ -1,12 +1,18 @@
-input,textarea{
+input{
   border-radius: 5px;
+}
+textarea{
+  overflow: scroll;
+  border-radius: 5px;
+  height: 40px;
 }
 input.checkbox{
   margin-bottom: 10px;
 }
 input:focus{
-  border-color:#DA70D6;
-  background-color: grey;
+  outline: none;
+  border:1px solid violet;
+  background-color: silver;
 }
 .motInsc{
   height: 40px;
@@ -20,4 +26,7 @@ input:focus{
 div label:nth-child(1){
   width:15%;
   float: left;
+}
+p{
+  display: inline;
 }

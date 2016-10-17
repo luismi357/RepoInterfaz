@@ -6,6 +6,8 @@ table,td{
 caption{
   caption-side: bottom;
   font-style: italic;
+  text-align: left;
+  font-size: 0.8em;
 }
 .abajo{
   vertical-align: bottom;

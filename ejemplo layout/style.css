@@ -143,15 +143,15 @@ blockquote ul {
   display: none;
 }
 
-blockquote:hover > ul{
+blockquote:hover > ul {
 	list-style: none;
   display: block;
 	position: relative;
 	left: 15px;
   color:grey;
 }
-blockquote > ul:hover{
-	color:white
+blockquote > ul li:hover  {
+	color:purple;
 }
 article hgroup {
 	margin-bottom: 10px;

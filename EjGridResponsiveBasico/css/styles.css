@@ -9,6 +9,38 @@
 body {
   font-family: Tahoma, Geneva, sans-serif;
 }
+.navbar{
+  padding: 15px;
+  padding-bottom: 0px;
+  background-color: #ABABAB;
+}
+#cabecera{
+  color: green;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.title_salmon a{
+  color:black;
+}
+.title_sand a{
+  color:black;
+}
+.title_red a{
+  color:white;
+}
+
+li:hover {
+  background: grey;
+  border:0.5px solid ;
+}
+li a{
+  color:white;
+}
+li a:hover{
+  color:white;
+}
+
 
 h1 {
   margin-top: 30px;

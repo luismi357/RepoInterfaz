@@ -1,0 +1,45 @@
+/** {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Para cualquier tamaño*/
+[class*="col-"]{
+  float:left;
+}
+
+.cabecera{
+  background-color: yellow;
+  height: 60px;
+  margin:1px;
+}
+
+.fotaka{
+  background-color: white;
+  height: 470px;
+  margin:1px;
+}
+
+.foto{
+  background-color: purple;
+  height:175px;
+  border: 1px solid white;
+}
+
+.pie1{
+  background-color: cyan;
+  height:300px;
+  border: 1px solid white;
+}
+.pie2{
+  background-color: cyan;
+  height:300px;
+  border: 1px solid white;
+}
+img{
+
+  width: 50px;
+  height: auto;
+  padding-top: 3px;
+}

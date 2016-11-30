@@ -1,0 +1,214 @@
+* {
+  margin:0px;
+	padding:0px;
+  box-sizing: border-box;
+}
+[class*="col-"] {
+  float: left;
+}
+
+/********** Dispositivos grandes **********/
+@media (min-width: 992px) {
+  .col-lg-1 {width: 8.33%;}
+  .col-lg-2 {width: 16.66%;}
+  .col-lg-3 {width: 25%;}
+  .col-lg-4 {width: 33.33%;}
+  .col-lg-5 {width: 41.66%;}
+  .col-lg-6 {width: 50%;}
+  .col-lg-7 {width: 58.33%;}
+  .col-lg-8 {width: 66.66%;}
+  .col-lg-9 {width: 74.99%;}
+  .col-lg-10 {width: 83.33%;}
+  .col-lg-11 {width: 91.66%;}
+  .col-lg-12 {width: 100%;}
+}
+
+/********** Dispositivos medianos **********/
+@media (min-width: 768px) and (max-width:991px) {
+  .col-md-1 {width: 8.33%;}
+  .col-md-2 {width: 16.66%;}
+  .col-md-3 {width: 25%;}
+  .col-md-4 {width: 33.33%;}
+  .col-md-5 {width: 41.66%;}
+  .col-md-6 {width: 50%;}
+  .col-md-7 {width: 58.33%;}
+  .col-md-8 {width: 66.66%;}
+  .col-md-9 {width: 74.99%;}
+  .col-md-10 {width: 83.33%;}
+  .col-md-11 {width: 91.66%;}
+  .col-md-12 {width: 100%;}
+}
+
+/********** Dispositivos pequeños **********/
+@media (max-width: 767px) {
+  .col-sm-1 {width: 8.33%;}
+  .col-sm-2 {width: 16.66%;}
+  .col-sm-3 {width: 25%;}
+  .col-sm-4 {width: 33.33%;}
+  .col-sm-5 {width: 41.66%;}
+  .col-sm-6 {width: 50%;}
+  .col-sm-7 {width: 58.33%;}
+  .col-sm-8 {width: 66.66%;}
+  .col-sm-9 {width: 74.99%;}
+  .col-sm-10 {width: 83.33%;}
+  .col-sm-11 {width: 91.66%;}
+  .col-sm-12 {width: 100%;}
+}
+.cabecera{
+  display: table;
+  vertical-align: middle;
+}
+
+.texto2 > a{
+padding: 50px;
+}
+a.email{
+  padding:70px;
+  margin-top:20px;
+  padding-right: 30px;
+}
+div.texto2{
+  margin-top: 50px;
+}
+.fondoP > p{
+  margin-top: 60px;
+}
+.telefono {
+  background: url('iconninja-sprites.png') no-repeat -141px 0;
+  background-size: 192px 64px;
+  width: 38px;
+  height: 64px;
+}
+.telefono:hover{
+  background: url('iconninja-sprites.png') no-repeat -141px 0;
+  background-size: 192px 64px;
+  width: 38px;
+  height: 64px;
+  opacity: 0.7;
+}
+.email{
+  background: url('iconninja-sprites.png') no-repeat -15px -16px;
+	width: 35px;
+	height: 34px;
+}
+a.email{
+  padding-right:
+}
+.email:hover{
+  background: url('iconninja-sprites.png') no-repeat -15px -16px;
+  width: 35px;
+  height: 34px;
+  opacity: 0.7;
+}
+
+.logo{
+  display: table-cell;
+  height: auto;
+}
+.logo img{
+  width: 100px;
+  height: 100px;
+  margin-left:25px;
+}
+.tituloCabecera{
+  display: table-cell;
+  height: auto;
+  vertical-align: middle;
+}
+.principal{
+  display: table;
+  vertical-align: middle;
+}
+.imagenPrinci{
+  display: table-cell;
+  height: auto;
+}
+.imagenPrinci img{
+width: 100%;
+}
+.texto1 {
+  display:table;
+}
+.texto1 img{
+  display: table-cell;
+  width:50%;
+  height: 50%;
+  margin-left: 40px;
+  margin-top:50px;
+}
+.texto1 .txt1 p{
+  margin-left: 40px;
+  margin-right: 250px;
+  margin-top:50px;
+}
+
+.texto2 img{
+  display: block;
+  width:50%;
+  height: 50%;
+  margin-top:20px;
+  margin: 0 auto 0 auto;
+}
+.texto2 .fondoP{
+  background-color: grey;
+  margin-bottom: 15px;
+  margin-right: 30px;
+}
+div.redes{
+}
+ul {
+	overflow: auto;
+  display: inline-block;
+  padding-top: 25px;
+  margin-left: 35%;
+}
+
+ul li {
+	list-style-type: none;
+	float: left;
+
+}
+
+ul li a i {
+	background: #205D7A;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 22%;
+}
+
+ul li a:hover i {
+	background: #205D7A;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 22%;
+  opacity: 0.7;
+}
+
+ul li a i {
+	transition: all 0.2s ease-in-out;
+}
+ul li a i:hover {
+	opacity: .7;
+}
+.fa-facebook {
+	background:#3b5998;
+}
+.fa-linkedin {
+	background:#007bb6;
+}
+.fa-twitter {
+	background:#00aced;
+}
+.fa-google-plus {
+	background:#CF0202;
+}

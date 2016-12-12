@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejer5</title>
+    <style media="screen">
+      .bomb{
+        height:300px;
+        width: 300px;
+        background-color: red;
+        border-radius: 120px;
+      }
+      .boton{
+        width: 300px;
+        text-align: center;
+        background-color: grey;
+        border-radius: 15px;
+        margin-bottom: 12px;
+      }
+    </style>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      $("#botonApagar").on("click",function(){
+        $(".bomb").toggle();
+        if($("#botonApagar").html()=="Apagar"){
+          $("#botonApagar").html('Encender');
+        }else{
+          $("#botonApagar").html('Apagar');
+        }
+      });
+    });
+    </script>
+  </head>
+  <body>
+    <div class="boton" id="botonApagar">Apagar</div>
+    <div class="bomb"></div>
+  </body>
+</html>

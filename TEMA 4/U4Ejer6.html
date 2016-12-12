@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejer6</title>
+    <style media="screen">
+      ul>li{
+        display: inline-block;
+        position: relative;
+      }
+      li ul{
+        position: absolute;
+      }
+      li ul li{
+        display: block;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript">
+
+      $(document).ready(function(){
+          //Oculta el menu ul li
+        $("li ul").hide();
+        //Cada vez que estoy encima de un elemento a depues de un li lo enseña en modo persiana.
+        $("li a").hover(function(){
+          $(this).next().slideToggle();
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#">Seccion1</a>
+      <ul>
+        <li><a href="#">Seccion1.1</a></li>
+        <li><a href="#">Seccion1.2</a></li>
+        <li><a href="#">Seccion1.3</a></li>
+      </ul>
+      </li>
+      <li><a href="#">Seccion2</a>
+      <ul>
+        <li><a href="#">Seccion2.1</a></li>
+        <li><a href="#">Seccion2.2</a></li>
+        <li><a href="#">Seccion2.3</a></li>
+      </ul>
+      </li>
+    </ul>
+  </body>
+</html>
